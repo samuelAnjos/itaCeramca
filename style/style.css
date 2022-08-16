@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+    --cor0: #EBEBEB;
+    --cor1: #F2EFBD;
+    --cor2: #F2D091;
+    --cor3: #A67233;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+     background-color: var(--cor0);
+}
+ 
+.container {
+   margin: 0;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+*/
+
+ /* header > h1 - header dentro eu tenho um h1 */
+  /* main h1 - todo h1 que tiver vou fazer isso */
+/*.navegar {
+    display: inline-block;
+    height: 30px;
+    width: 26px;
+    margin: 5px 20px;
+    padding: 5px;
+}*/
+
+:root {
+    --cor0: #EBEBEB;
+    --cor1: #EBD094;
+    --cor2: #F2D091;
+    --cor3: #12295B;
+
+    --fonte-padrao: 'Roboto', sans-serif;
+    
+}
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header-banner{
+    width:100%;
+    height:250px;
+    margin: 0px; 
+}
+
+.navegar{
+   background-color: var(--cor3);
+   font-size: 20PX;
+   margin-top: 0px;
+   padding: 5px;
+
+}
+nav > a{
+   color: white;
+   padding: 5px;
+   text-decoration: none;  
+   font-weight: bold;
+
+}
+
+nav > a:hover {
+    background-color: #EBD094;
+    color: #12295B;
+    border-radius: 4px;
+}
+
+.search-box{
+    position: absolute;
+    top: 35.6%;
+    left: 40%;
+    background-color: white;
+    height: 20px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    
+    background: none;
+   
+    border: 0;
+    outline: 0;
+    /*
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;*/
+
+    
+}
+.loupe-white {
+    display: none;
+}
+
+
+
+
+.body-app {
+    background-color: var(--cor0);
+}
+.container{
+    text-align: center;
+}
+.curso {
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+    font-family: Verdana, sans-serif;
+    border: solid 1px #CCC; 
+    /*box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);*/    
+    height: 320px;
+    width: 250px;
+    margin: 35px 20px;
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+.curso img {
+    width: 100%;
+    max-height: 54%;
+    border-radius: 4px;
+    height: 260px;
+}
+
+.curso-info {
+    padding: 10px;
+    height: 90px;
+    overflow: hidden; 
+}
+
+.curso-info h4 {
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.curso-preco {
+    float: right;
+    padding: 10px;
+}
+
+.preco-de {
+    text-decoration: line-through;
+    color: #7d7c7c;
+}
+
+.preco-por {
+    color: #2d58b4;
+    font-weight: bold;
+    font-size: 1.4em;
+}  
+main img {
+    width: 100% ;
+}
+
+
+.contact{
+    position: absolute;
+    display: block;
+    padding-left: 600px;
+    width: 100px;
+    height: 200;
+   
+}
+
+.sugestao {
+
+    display: flex; 
+    width:100%;
+    justify-content: left;
+    background: #d2d1d1;
+    padding: 20px;
+
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+    padding: 5px 10px;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    height: 94px;
+    width: 300px;
+}
+
+.contact2{
+    position: absolute;
+    display: block;
+    padding-left: 930px;
+    padding-top: 20px;
+    width: 100px;
+    height: 200;
+}
+
+.form-control{
+  margin-top: 25px;
+}
+
+
+
+.fildcamp2{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0.5em;
+    padding: 8px 0.4em;
+    background-color: #11c73b;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.208);
+    box-shadow: 1px 2px 0 green;
+
+}
+
+.navbar-light {
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    
+    height: 20px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape{
+    background-color:   #12295B;
+    color: #EDD598;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+   /* padding: 0px 0px 12px 0px;/* float: left; */
+}
+
+
+
+@media(max-width: 601px){
+    .curso{
+        width: 85%;
+    }
+
+    .header-banner{
+        width: 100%;
+    }
+
+    .navegar{
+        display: none;
+    }
+
+    .search-box{
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    background-color: white;
+    height: 20px;
+    padding: 8px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+
+.sugestao {
+    display: flex; 
+    justify-content: center;
+    background: #d2d1d1;
+    padding: 20px;
+
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+    padding: 5px 10px;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    height: 40px;
+    width: 50px;
+}
+
+.contact2{
+    position: absolute;
+    display: block;
+    padding-left: 1000px;
+    padding-top: 20px;
+    width: 100px;
+    height: 200;
+}
+
+.fildcamp2{
+    display: block;
+    cursor: pointer;
+    margin: 1em;
+    padding: 9px 1.3em;
+    background-color: #11c73b;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.208);
+    box-shadow: 1px 2px 0 green;
+
+}
+
+
+    
+}
